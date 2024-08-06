@@ -5,13 +5,13 @@ const Project = (props) => {
   console.log("Project")
   
   return (
-    <div className='flex flex-col gap-5 py-5 md:flex-row md:justify-evenly md:gap-32'>
+    <div className='flex flex-col gap-5 py-5 md:flex-row md:justify-evenly md:gap-32 '>
        
      { data.map((item)=>{
         return (
-          <div className='flex flex-col w-full h-full px-12'>
+          <div className='flex flex-col w-full h-full px-12 py-6 border-2 border-thapa-400 rounded-lg'>
           <div>
-             <img src={item.pic} alt="img" />
+             <img src="pic" alt="img" />
             </div>
             <div className='flex flex-col '>
              <h4 className='font-bold'>Project:{item.project}</h4>

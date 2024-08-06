@@ -1,7 +1,7 @@
   {
         "frontend":[{
             "project":"AI BOOTCAMP",
-            "pic":"AI BOOTCAMP",
+            "pic":"",
             "descr":"Kickstart your Artificial Intelligence journey With Aryan Singh (swe at google)."
         },
         {
@@ -20,7 +20,7 @@
     "Js":[
         {
             "project":"SingnIt.io",
-            "pic":"",
+            "pic":"signit.png",
             "descr":"A quick tool for your daily signature need to fulfill with advance feture like signature enhancing so what are you waiting try for free!"
         },
         {
