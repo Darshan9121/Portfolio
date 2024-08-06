@@ -10,6 +10,7 @@ import Projects from './components/Projects';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Social from './components/Social';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,9 +18,9 @@ root.render(
     {/* <App /> */}
     <Navbar/>
     <Banner/>
-    <About/>
     <Skills/>
     <Projects/>
+    <Social/>
     <Contact/>
     <Footer/>
   </React.StrictMode>
