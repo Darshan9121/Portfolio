@@ -10,7 +10,7 @@ const Skill = (props) => {
                     // console.log("ITEMS:"+item);
                     return (
                         <div className='flex flex-row justify-between  rounded-full gap-4 border-2 border-thapa-400  p-4 font-bold hover:bg-thapa-400 hover:text-white'>
-                            <h4 className=''>{item.skills}</h4>
+                            <h4 className=''>{item.skill}</h4>
                             -
                             <span className=''>{item.level}</span>
                         </div>

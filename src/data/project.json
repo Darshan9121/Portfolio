@@ -1,33 +1,42 @@
-[
-    {
+  {
         "frontend":[{
-            "project":"P1",
-            "descr":"This is description"
+            "project":"AI BOOTCAMP",
+            "pic":"AI BOOTCAMP",
+            "descr":"Kickstart your Artificial Intelligence journey With Aryan Singh (swe at google)."
         },
         {
-            "project":"P2",
-            "descr":"This is description"
+            "project":"PLANTO:PLANET TRAVELING",
+            "pic":"",
+            "descr":"Travel Plannets not country and book your tickets to moon,mars and lot more!"
+        },
+        {
+            "project":"HOSTER&WEB",
+            "pic":"",
+            "descr":"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
         }
     
     ]
     ,
     "Js":[
         {
-            "project":"P1",
-            "descr":"This is description"
+            "project":"SingnIt.io",
+            "pic":"",
+            "descr":"A quick tool for your daily signature need to fulfill with advance feture like signature enhancing so what are you waiting try for free!"
         },
         {
-            "project":"P1",
-            "descr":"This is description"
+            "project":"Image Resizer",
+            "pic":"",
+            "descr":"Resizer is a powerfull image resizing tool for your daily image resizing need try for free!"
         }
     ],
     "complete":[  {
-        "project":"p1",
-        "descr":"This is description"
+        "project":"Dundder Mifflin Ecommerce Site",
+        "pic":"",
+        "descr":"Complete Ecommerce site using html,css,js along with php and Mysql."
     },
     {
-        "project":"P1",
-        "descr":"This is description"
+        "project":"Smart Car Parking System using Iot",
+        "pic":"",
+        "descr":"Resolve common real world parking problem with SCPS."
     }]
     }
-]

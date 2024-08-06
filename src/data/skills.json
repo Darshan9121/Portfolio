@@ -2,29 +2,33 @@
     {
         "frontend":[
             {
-                "skill":"skil1",
+                "skill":"HTML",
                 "level":"Advance"
             },
             {
-                "skill":"skil2",
+                "skill":"CSS",
                 "level":"Advance"
             },
             {
-                "skill":"skil1",
+                "skill":"JS",
                 "level":"Advance"
+            },
+            {
+                "skill":"REACT JS ",
+                "level":"Intermediate"
             }
         ],
         "Backend":[
             {
-                "skill":"skil1",
+                "skill":"PHP",
                 "level":"Advance"
             },
             {
-                "skill":"skil2",
+                "skill":"MYSQL",
                 "level":"Advance"
             },
             {
-                "skill":"skil1",
+                "skill":"MONGODB",
                 "level":"Advance"
             }
         ]
