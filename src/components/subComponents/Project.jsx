@@ -10,13 +10,13 @@ const Project = (props) => {
      { data.map((item)=>{
         return (
           <div className='flex flex-col w-full h-full px-12 py-6 border-2 border-thapa-400 rounded-lg'>
-          <div>
-             <img src="pic" alt="img" />
-            </div>
+          {/* <div>
+             <img src={item.pic}/>
+            </div> */}
             <div className='flex flex-col '>
              <h4 className='font-bold'>Project:{item.project}</h4>
              <p className='font-bold'>Project Description:{item.descr}</p>
-             <button className='font-bold w-full h-fit bg-thapa-400'>View</button>
+             <button className='font-bold w-full h-fit bg-thapa-400'><a href={item.link} target='-blank'>View</a></button>
             </div>
          </div>
         )
