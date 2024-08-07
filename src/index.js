@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
@@ -10,8 +10,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import { Nav } from 'react-bootstrap';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Social from './components/Social';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
