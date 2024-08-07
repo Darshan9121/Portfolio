@@ -19,7 +19,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Navbar/>
-    <BrowserRouter>
+    <BrowserRouter basename='/Portfolio'>
         <Routes>
         {/* <Route path="/" element={<Home/>}/> */}
         <Route path="*" element={<p>Eroor</p>}/>

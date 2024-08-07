@@ -1,7 +1,7 @@
 {
   "name": "pf-1",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://darshan9121.github.io/Portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
