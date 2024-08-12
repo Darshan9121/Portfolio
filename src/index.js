@@ -22,9 +22,12 @@ root.render(
         <Routes>
         {/* <Route path="/" element={<Home/>}/> */}
         <Route path="*" element={<p>Eroor</p>}/>
-        <Route path="" element={<Home/>}/>
+        {/* <Route path="" element={<Home/>}/>
         <Route  path="/" element={<Home/>}/>
-        <Route  path="/Portfolio" element={<Home/>}/>
+        <Route  path="/Portfolio" element={<Home/>}/> */}
+        <Route path="" element={<>empty</>}/>
+        <Route  path="/" element={<>/</>}/>
+        <Route  path="/Portfolio" element={<>Portfolio</>}/>
         <Route  path="Home" element={<Home/>}/>
         <Route path='index.js#Projects' element={<Projects/>}/> 
         <Route path='Contact' element={<Contact/>}/> 
