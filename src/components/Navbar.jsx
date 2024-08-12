@@ -11,9 +11,9 @@ const Navbar = () => {
         <li><a href="Portfolio/">Home</a></li>
         <li><a href="">Home</a></li>
         {/* <li><a href="http://">About</a></li> */}
-        <li><a href="Portfolio/skills">Skills</a></li>
-        <li><a href="Portfolio/Projects">Projects</a></li>
-        <li><a href="Portfolio/Follow">Follow Me</a></li>
+        <li><a href="skills">Skills</a></li>
+        <li><a href="Projects">Projects</a></li>
+        <li><a href="Follow">Follow Me</a></li>
        </ul>
        <button className='bg-thapa-400 text-black p-3 rounded-md'><a href='/contact'>Say Hello</a></button>
      </nav> 
