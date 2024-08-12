@@ -25,11 +25,11 @@ root.render(
         <Route path="" element={<Home/>}/>
         <Route  path="/" element={<Home/>}/>
         <Route  path="/Portfolio" element={<Home/>}/>
-        <Route  path="https://darshan9121.github.io/Portfolio/Home" element={<Home/>}/>
-        <Route path='https://darshan9121.github.io/Portfolio/Projects' element={<Projects/>}/> 
-        <Route path='https://darshan9121.github.io/Portfolio/Contact' element={<Contact/>}/> 
-        <Route path='https://darshan9121.github.io/Portfolio/Skills' element={<Skills/>}/> 
-        <Route path='https://darshan9121.github.io/Portfolio/Follow' element={<Social/>}/> 
+        <Route  path="Home" element={<Home/>}/>
+        <Route path='Projects' element={<Projects/>}/> 
+        <Route path='Contact' element={<Contact/>}/> 
+        <Route path='Skills' element={<Skills/>}/> 
+        <Route path='Follow' element={<Social/>}/> 
     </Routes>
 </BrowserRouter>
     <Footer/>
