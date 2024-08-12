@@ -28,7 +28,7 @@ root.render(
         <Route  path="Home" element={<Home/>}/>
         <Route path='index.js#Projects' element={<Projects/>}/> 
         <Route path='Contact' element={<Contact/>}/> 
-        <Route path='index.js#skills' element={<Skills/>}/> 
+        <Route path='/skills' element={<Skills/>}/> 
         <Route path='index.js#Follow' element={<Social/>}/> 
     </Routes>
 </BrowserRouter>
