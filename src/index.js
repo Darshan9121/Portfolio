@@ -26,10 +26,10 @@ root.render(
         <Route  path="/" element={<Home/>}/>
         <Route  path="/Portfolio" element={<Home/>}/>
         <Route  path="Home" element={<Home/>}/>
-        <Route path='Projects' element={<Projects/>}/> 
+        <Route path='index.js#Projects' element={<Projects/>}/> 
         <Route path='Contact' element={<Contact/>}/> 
-        <Route path='Skills' element={<Skills/>}/> 
-        <Route path='Follow' element={<Social/>}/> 
+        <Route path='index.js#skills' element={<Skills/>}/> 
+        <Route path='index.js#Follow' element={<Social/>}/> 
     </Routes>
 </BrowserRouter>
     <Footer/>
